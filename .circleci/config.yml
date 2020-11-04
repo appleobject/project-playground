@@ -11,4 +11,9 @@ jobs:
       - checkout
       - run:
           command: ./gradlew build
+          
+          - name: Make gradlew executable
+             run: chmod +x ./gradlew
+
+
 
